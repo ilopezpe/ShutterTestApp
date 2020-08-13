@@ -7,7 +7,5 @@ The application sends serial commands to Numato USB GPIO controller, which enabl
 
 This application itself can be tested with any serial port device, e.g. Arduino. A library is included to extend this to other general purpose hardware controllers.
 
-Contributors and Developers:
 
-https://github.com/ilopezpe
-https://github.com/asarnow
+Depends on code developed by : https://github.com/asarnow
