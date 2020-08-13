@@ -18,7 +18,7 @@ namespace ShutterTester
         public ShutterTest()
         {
             InitializeComponent();
-            getPorts();
+            getPorts();            
             delaynumberBox.Text = BeamFlags.DefaultDelay.ToString();
             groupBox2.Enabled = false;
             groupBox3.Enabled = false;
@@ -37,8 +37,6 @@ namespace ShutterTester
 
         private void PortButton_Click(object sender, EventArgs e)
         {              
-            beamflags.Delay = BeamFlags.DefaultDelay; // Set waiting time
-
             if ((serialPort1.IsOpen == false) && (comboBoxPorts.SelectedIndex != -1))
             {
                 serialPort1 = new SerialPort()
@@ -50,6 +48,8 @@ namespace ShutterTester
                     Parity = Parity.None,
                     Handshake = Handshake.None // No flow control
                 };
+                
+                beamflags.Delay = (int)delaynumberBox.Text; // Reset waiting time
 
                 beamflags.CloseLaserAndProbe();
                 try
