@@ -39,32 +39,32 @@
         void ToggleLaserAndProbe();
 
         /// <summary>
-        /// This commands the shutter to open
+        /// This changes the saved state of the laser to open.
         /// </summary>
         void OpenLaser();
 
         /// <summary>
-        /// This commands the shutter to close
+        /// This changes the saved state of the laser to closed.
         /// </summary>
         void CloseLaser();
 
         /// <summary>
-        /// This commands the shutter to open
+        /// This changes the saved state of the probe to open.
         /// </summary>
         void OpenProbe();
 
         /// <summary>
-        /// This commands the shutter to close
+        /// This changes the saved state of the probe to closed.
         /// </summary>
         void CloseProbe();
 
         /// <summary>
-        /// This commands both shutters to open simultaneously
+        /// This changes the saved state of both laser and probe to open.
         /// </summary>
         void OpenLaserAndProbe();
 
         /// <summary>
-        /// This commands both shutters to close simultaneously
+        /// This changes the saved state of both laser and probe to closed.
         /// </summary>
         void CloseLaserAndProbe();
     }
