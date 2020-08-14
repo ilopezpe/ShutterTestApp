@@ -1,7 +1,7 @@
 # ShutterTestApp
 This application controls the position of a beam shutter.
 
-The software sends serial commands to a Numato USB GPIO controller, which enable or disables hardware GPIO 3.3 V outputs. The outputs are connected to a custom shutter driver called BeamFlags (Not described here).
+The software sends serial commands to a Numato USB GPIO controller, which enables or disables hardware GPIO 3.3 V outputs. The outputs are connected to a custom shutter driver called BeamFlags (Not described here).
 
 ![App Image](https://github.com/ilopezpe/ShutterTestApp/blob/master/ShutterTestApp.png)
 
