@@ -7,4 +7,4 @@ The software sends serial commands to a Numato USB GPIO controller, which enable
 
 This software can be tested with any serial port device, e.g. Arduino. A library is included to extend this to other general purpose hardware controllers.
 
-This software was written with C# using MS Visual Studio. It depends on code inherited from https://github.com/asarnow
+This software was written with C# using MS Visual Studio. It is derived from https://github.com/asarnow
